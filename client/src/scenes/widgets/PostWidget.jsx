@@ -61,7 +61,7 @@ const PostWidget = ({
       {picturePath && (
         <>
           {
-          picturePath.indexOf(".wav")==picturePath.length-4?(<audio src={`http://localhost:3001/assets/${picturePath}`} controls></audio>):(picturePath.indexOf(".mp4")!==picturePath.length-4?(<img
+          picturePath.indexOf(".wav")===picturePath.length-4?(<audio src={`http://localhost:3001/assets/${picturePath}`} controls></audio>):(picturePath.indexOf(".mp4")!==picturePath.length-4?(<img
           width="100%"
           height="auto"
           typeof=".jpg,.jpeg,.gif"
