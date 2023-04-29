@@ -1,7 +1,6 @@
 import {
   EditOutlined,
   DeleteOutlined,
-  AttachFileOutlined,
   GifBoxOutlined,
   ImageOutlined,
   MicOutlined,
