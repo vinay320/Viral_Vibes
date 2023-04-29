@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { addDoc, collection, onSnapshot, orderBy, query, serverTimestamp, snapshotEqual, where } from "firebase/firestore";
+import { addDoc, collection, onSnapshot, orderBy, query, serverTimestamp, where } from "firebase/firestore";
 import { auth, db } from "../firebase-config";
 import '../styles/Chat.css'
 import { Button } from "@mui/material";
