@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  background: url(https://cdn.pixabay.com/photo/2019/04/10/11/56/watercolor-4116932_960_720.png);
+}
